@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSpring</title>
+</head>
+<body>
+    <header>
+        <h1>LearnHub</h1>
+        <p>Your journey to learning technology starts here!</p>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#schedule">Schedule</a> |
+            <a href="#roadmap">Roadmap</a> |
+            <a href="#registration">Registration</a> |
+            <a href="#contact">Contact</a> 
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section id="home">
+        <h2>Welcome to LearnHub</h2>
+        <p>LearnHub is an educational platform designed to help students learn programming and web development.</p>
+       
+        <p>We provide courses, learning resources, and practical projects for beginners.</p>
+       
+        <img src="" alt="Students learning programming">
+        <p>Visit <a href="#">W3Schools</a> to learn more about web development.</p>
+        
+        <a href="#"><img src="" alt="Visit Google"></a>
+        <hr>
+        </section>
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <h3>HTML Fundamentals</h3>
+            <p>Learn the structure of website.</p>
+            <p>Duration:3 Weeks</p>
+            <p>Level: Beginner</p>
+            <h3>CSS Mastery</h3>
+            <p>Learn to style and design websites.</p>
+            <p>Duration: 3 Weeks</p>
+            <p>Level: Beginner</p>
+            <h3>javaScript Essentials</h3>
+            <p>Learn programming for interactive website.</p>
+            <p>Duration: 4 Weeks</p>
+            <p>Level: Intermediate</p>
+            <h3>CSS Mastery</h3>
+            <p>Learn Python programming from the beginning.</p>
+            <p>Duration: 5 Weeks</p>
+            <p>Level: Beginner</p>
+            <hr>
+        </section>
+        <section id="schedule">
+            <h2>Course Schedule</h2>
+            <table border="2">
+                <caption>Course Details</caption>
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Instructor</th>
+                        <th>Duration</th>
+                        <th>Fee</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Rahul</td>
+                        <td>2 Weeks</td>
+                        <td>₹500</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Amit</td>
+                        <td>3 Weeks</td>
+                        <td>₹800</td>
+                    </tr>
+                    <tr>
+                        <td>javaScript</td>
+                        <td>Priya</td>
+                        <td>4 Weeks</td>
+                        <td>₹1200</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total Course</td>
+                        <td>3</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+        </section>
+        <section id="roadmap">
+            <h2>Learning Roadmap</h2>
+            <h3>Learning Resources</h3>
+            <ul>
+                <li>Video tutorials</li>
+                <li>Study notes</li>
+                <li>Practice exercises</li>
+                <li>Projects</li>
+            </ul>
+            <h3>Learning Steps</h3>
+            <ol>
+                <li>Learn HTML</li>
+                <li>Practice CSS</li>
+                <li>Learn javaScript</li>
+                <li>Build projects</li>
+            </ol>
+            <hr>
+        </section>
+        <section id="registration">
+            <h2>Course Registration</h2>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="full_name">Full Name:</label><br>
+                <input type="text" name="full_name" id="full_name" placeholder="Enter your name" required minlength="2" maxlength="40"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" placeholder="Enter your email" id="email" required><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" placeholder="Enter your password" id="password" required minlength="8"><br><br>
+                <label for="phone_number">Phone Number:</label><br>
+                <input type="tel" name="phone_number" id="phone_number" placeholder="Enter your phone number" pattern="[0-9]{10}" required ><br><br>
+                <label for="date_of_birth">Date of Birth:</label><br>
+                <input type="date" name="date_of_birth" id="date_of_birth" required><br><br>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" name="gender" id="male" value="male">Male
+                <input type="radio" name="gender" id="female" value="female">Female
+                <input type="radio" name="gender" id="others" value="others">Others
+            </fieldset>
+            <fieldset>
+                <legend>Course Information</legend>
+                <label for="city">Select City:</label><br>
+                <select name="city" id="city" required>
+                    <option value="">Choose your city</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="pune">Pune</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="bangalore">Bangalore</option>
+                </select><br><br>
+                <label for="courses">Select Courses:</label><br>
+                <input type="checkbox" name="courses" id="courses" value="html">HTML 
+                <input type="checkbox" name="courses" id="courses" value="css">CSS
+                <input type="checkbox" name="courses" id="courses" value="javaScript">javaScript 
+                <input type="checkbox" name="courses" id="courses" value="Python">Python <br><br>
+                <label for="youself">About Yourself:</label><br>
+                <textarea name="youself" id="youself" placeholder="Tell us about yourself" required rows="5" cols="30"></textarea><br><br>
+                <label for="upload_resume">Upload Resume:</label><br>
+                <input type="file" name="upload_resume" id="upload_resume" required>
+
+            </fieldset>
+            <input type="checkbox" required name="terms" id="terms"> I agree to the terms and conditions. <br><br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear Form">
+            <hr>
+        </section>
+        <section>
+            <h2>Learn HTML</h2>
+            <video src="myVideo.mp4" controls autoplay muted></video><br>
+            <hr>
+        </section>
+        <section>
+            <h2>Bonus HTML Concepts</h2>
+            <p>Water formula: H<sub>2</sub>O</p>
+            <p>Square: 5<sup>2</sup>=25</p>
+            <h3>Example HTML Code</h3>
+            <pre>
+            &lt;h1&gt;Hello world &lt;/h1&gt;<
+            &lt;p&gt;Welcome to HTML&lt;/p&gt;
+            </pre>
+            <p>HTML is important for website development.</p>
+            <p>This paragraph in inside a div container.</p>
+            <h3>Extermal Website</h3>
+            <iframe src="https://w.wiki/" frameborder="0" height="400" width="300"></iframe>
+        </section>
+        <section id="contact">
+            <h2>Contact LearnHub</h2>
+            Email: <a href="mailto:learnhub@example.com">learnhub@example.com</a><br>
+            Phone: <a href="tel:9876543210">9876543210</a><br>
+            <a href="#home">Back to Top</a>
+            <hr>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2026 LearnHub</p>
+        <p>Created using HTML.</p>
+    </footer>
+</body>
+</html>
